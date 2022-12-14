@@ -6,6 +6,13 @@ body {
   margin: 10% 20%
 }
 
+.resume_profile {
+  margin-top: 5;
+  margin-bottom: 5;
+  border-radius: 3px;
+  border: 2px solid black,
+}
+
 h4 {
   margin-top: 4;
   margin-bottom: 0;
