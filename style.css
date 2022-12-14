@@ -6,6 +6,20 @@ body {
   margin: 10% 20%
 }
 
+.color img{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all 1s ease;
+}
+
+.color img:hover{
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 1s ease;
+}
+
 h4 {
   margin-top: 4;
   margin-bottom: 0;
