@@ -38,6 +38,18 @@ img:hover {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+.button-container-div {
+            text-align: center;
+}
+
+.button{
+  padding: 1px 15px;
+  border: 1px solid black;
+  border-radius: 12px;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.0)
+}
+
 h4 {
   margin-top: 4;
   margin-bottom: 0;
