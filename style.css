@@ -39,15 +39,16 @@ img:hover {
 }
 
 .button-container-div {
-            text-align: center;
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
 }
 
 .button{
-  padding: 1px 15px;
   border: 1px solid black;
   border-radius: 12px;
   font-size: 18px;
-  background-color: rgba(0, 0, 0, 0.0)
+  background-color: rgba(0, 0, 0, 0.1)
 }
 
 h4 {
