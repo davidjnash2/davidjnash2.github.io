@@ -52,6 +52,14 @@ img:hover {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+figcaption {
+  background-color: 0, 0, 0, 0.0;
+  color: black;
+  font-style: italic;
+  padding: 0px;
+  text-align: center;
+}
+
 .button-container-div {
   text-align: center;
   padding: 5px;
