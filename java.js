@@ -1,5 +1,7 @@
-button.getElementById("allbusiness").addEventListener("click", myFunction);
-
-function myFunction() {
-  img.getElementById("profile").src = "https://github.com/davidjnash2/davidjnash2.github.io/blob/4471d52ab185c266fd9ec5f40b1beff3677b7ea8/IMG_6499.jpeg";
+function changeImage(){
+let displayImage = document.getElementById ("profile")
+if (displayImage.src.match("F07335DE-9DA6-41A4-BE53-D9377952592F.jpg")){
+displayImage.src = "IMG_6499.jpeg"
+} else {
+displayImage src = "F07335DE-9DA6-41A4-BE53-D9377952592F.jpg"}
 }
