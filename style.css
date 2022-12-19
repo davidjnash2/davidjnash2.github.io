@@ -38,6 +38,11 @@ img {
   margin-right: auto;
 }
 
+.img-fluid {
+  min-width: 75px;
+  height: auto;
+}
+
 img:hover {
   animation: shake 0.5s; 
   animation-iteration-count: infinite; 
